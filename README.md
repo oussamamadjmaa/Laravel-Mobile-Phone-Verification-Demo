@@ -8,6 +8,24 @@ Registration process is based on Laravel Breeze.
 
 SMS Sending is performed with Notifications, based on Vonage (ex Nexmo) provider, which is [officially supported by Laravel](https://laravel.com/docs/9.x/notifications#sms-notifications).
 
+## Server Requirements
+The Laravel framework has a few system requirements. You should ensure that your web server has the following minimum PHP version and extensions:
+
+- PHP >= 8.0
+- sodium PHP Extension *(it must be enabled via `php.ini` before running `composer install`)*
+- BCMath PHP Extension
+- Ctype PHP Extension
+- cURL PHP Extension
+- DOM PHP Extension
+- Fileinfo PHP Extension
+- JSON PHP Extension
+- Mbstring PHP Extension
+- OpenSSL PHP Extension
+- PCRE PHP Extension
+- PDO PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+- 
 ## Usage
 
 - Clone the repository with `git clone`
